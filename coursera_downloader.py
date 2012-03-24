@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+x#!/usr/bin/env python
 # Developed with pyton 2.7
 # Copyright 2012 Logan Ding <logan.ding@gmail.com>. All Rights Reserved.
 #
@@ -143,7 +143,7 @@ def choose_course(course):
 def parse_choice(input):
     if input == '':
         return input
-    input = split_string(input, ' ,') 
+    input = split_string(input, ',') 
     choice = []
     for e in input:
         if e.isdigit():
